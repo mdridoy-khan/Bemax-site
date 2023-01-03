@@ -1,0 +1,79 @@
+/* Normal desktop(xl) :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+.main-menu ul li .mega-menu {
+	width: 650px;
+	left: -260px;
+}
+
+}
+
+
+/* Normal desktop(lg) :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.main-menu ul li .mega-menu {
+	width: 625px;
+}
+.slider-text h3{
+	font-size:20px;
+}
+.slider-text h1{
+	font-size:50px;
+}
+.testimonial-active .slick-arrow {
+	padding: 10px 15px;
+	font-size: 15px;
+}
+.features-text {
+	padding-top: 10px;
+}
+.blog-content a{
+	 font-size:10px;
+ }
+}
+
+ 
+/* Tablet desktop(md) :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.main-menu ul li .mega-menu {
+	width: 515px;
+}
+.main-menu ul li ul.submenu {
+	width: 190px;
+}
+.features-text {
+	padding: 38px;
+	bottom: 15px;
+	transform: translateY(84%);
+	padding-top: -1px;
+}
+.blog-active .slick-arrow {
+	right: 430px;
+}
+.blog-active .fa-chevron-right {
+	right: 390px;
+}
+}
+
+ 
+/* small mobile(xs) :320px. */
+@media (max-width: 767px) {
+.header-area {
+	padding: 20px 0;
+}
+.blog-thumb{
+	float:none;
+	margin-bottom:20px;
+}
+.blog-thumb span{
+	width:45%;
+}
+.blog-content{
+	padding-left:0;
+}
+}
+ 
+/* Large Mobile(sm) :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ 
+}
